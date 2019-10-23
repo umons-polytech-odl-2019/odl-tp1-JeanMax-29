@@ -3,6 +3,7 @@ package exercise2;
 public class Exercise2 {
 
 	static void createPerson(int age) {
+		Person p=new Person(age);
 	}
 
 	static int computePopulationSize() {

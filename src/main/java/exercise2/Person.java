@@ -16,7 +16,7 @@ class Person {
 	}
 
 	public static float computeAveragePopulationAge(){
-		return totalAge/populationSize;
+		return (float)totalAge/populationSize;
 	}
 
 	public static void resetPopulation(){
